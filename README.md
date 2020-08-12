@@ -1,6 +1,6 @@
 # Sensify
   
-[![License](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)]
+![License](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)
 
 A web based playlist recommender. Utilizes the OpenWeatherMap API and the Spotify Web API to generate a personalized playlist.
   
