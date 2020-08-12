@@ -28,7 +28,7 @@ const questions = [
   },
   {
     type: 'input',
-    name: 'contribution',
+    name: 'contributing',
     message: 'What are the contribution guidelines for your application?'
   },
   {
