@@ -1,9 +1,9 @@
 
-  # Project_1
+  # TerminalApp
   
-  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
 
-  This is a web-based project that displays the user's on the webpage.
+  A CLI application to generate README files based on user input.
   
   ## Table of Contents
 
@@ -18,27 +18,31 @@
 
   To install, run the following in your terminal:
   
-      npm i my_project
+      npm i terminal-app
   
   ## <a name="usage"></a> Usage
   
-      const myProject = require('Project1')
+  To include the application in future developments:
+
+      const termApp = require('TerminalApp')
   
   ## <a name="contributing"></a> Contributing
   
-  Pull requests are welcome. Open an issue to discuss more major changes.
+  Pull requests are welcome. Open an issue for major changes.
   
   ## <a name="tests"></a> Tests
   
-  To test application, run ```bash
+  To test application, run the following in your terminal:
+    
+      node termapp.js
 
   ## <a name="license"></a> License
 
-  This application is licensed under the MIT license. Use of this application must be in compliance with the MIT license.
+  This application is licensed under the GPL 3.0 license. Use of this application must be in compliance with the GPL 3.0 license.
   
   ## <a name="questioning"></a> Questions
 
   Visit my [GitHub](https://github.com/mattjavier)
 
-  Email [matthewrjavier@gmail.com](matthewrjavier@gmail.com) for additional questions.
+  For additional questions, you can reach me via email at [matthewrjavier@gmail.com](matthewrjavier@gmail.com).
   
