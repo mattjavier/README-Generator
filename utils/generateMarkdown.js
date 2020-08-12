@@ -24,6 +24,8 @@ function generateMarkdown(data) {
   
   ## <a name="usage"></a> Usage
   
+  To include the application in future developments:
+  
       ${data.usage}
   
   ## <a name="contributing"></a> Contributing
@@ -32,7 +34,9 @@ function generateMarkdown(data) {
   
   ## <a name="tests"></a> Tests
   
-  ${data.test}
+  To test application, run the following in your terminal:
+    
+      ${data.test}
 
   ## <a name="license"></a> License
 
