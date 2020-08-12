@@ -1,5 +1,6 @@
 const { prompt } = require('inquirer')
 const fs = require('fs')
+const generateMarkdown = require('./utils/generateMarkdown')
 
 let licenses = ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
 
@@ -39,7 +40,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Which license would you like to choose?',
-    licenses
+    choices: licenses
   },
   {
     type: 'input',
@@ -55,11 +56,18 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+  fs.writeFile(fileName, data, (err) => {
+    if (err) { console.log(err) }
+  })
 }
 
 // function to initialize program
 function init() {
-
+  prompt(questions)
+  .then(res => {
+    writeToFile('./testREADME.md', generateMarkdown(res))
+  })
+  .catch(err => console.log(err))
 }
 
 // function call to initialize program
