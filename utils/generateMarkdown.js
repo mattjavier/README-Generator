@@ -4,18 +4,18 @@ function generateMarkdown(data) {
 
   # ${data.title}
   
-  [![License](https://img.shields.io/badge/license-${data.license}-blue.svg)]
+  [License](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
   ${data.description}
   
   ## Table of Contents
 
-  [Installation](#install)
-  [Usage](#usage)
-  [Contributing](#contributing)
-  [Tests](#tests)
-  [License](#license)
-  [Questions](#questions)
+  * [Installation](#install)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [License](#license)
+  * [Questions](#questions)
   
   ## <a name="install"></a> Installation
   
