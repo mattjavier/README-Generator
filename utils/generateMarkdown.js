@@ -17,12 +17,14 @@ function generateMarkdown(data) {
   * [Questions](#questions)
   
   ## <a name="install"></a> Installation
+
+  To install, run the following in your terminal:
   
-  ${data.installation}
+      ${data.installation}
   
   ## <a name="usage"></a> Usage
   
-  ${data.usage}
+      ${data.usage}
   
   ## <a name="contributing"></a> Contributing
   
