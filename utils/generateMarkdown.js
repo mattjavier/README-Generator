@@ -25,7 +25,7 @@ function generateMarkdown(data) {
   ## <a name="usage"></a> Usage
   
   To include the application in future developments:
-  
+
       ${data.usage}
   
   ## <a name="contributing"></a> Contributing
@@ -46,7 +46,7 @@ function generateMarkdown(data) {
 
   Visit my [GitHub](https://github.com/${data.username})
 
-  Email [${data.email_address}](${data.email_address}) for additional questions.
+  For additional questions, you can reach me via email at [${data.email_address}](${data.email_address}).
   `
 }
 
