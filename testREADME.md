@@ -1,8 +1,7 @@
 
-
   # Sensify
   
-  ![License](https://img.shields.io/badge/license-APACHE%202.0-blue.svg)
+  ![License](https://img.shields.io/badge/license-GPL%203.0-blue.svg)
 
   A web based playlist recommender. Utilizes the OpenWeatherMap API and the Spotify Web API to generate a personalized playlist.
   
@@ -33,7 +32,7 @@
 
   ## <a name="license"></a> License
 
-  This application is licensed under the APACHE 2.0 license. Use of this application must be in compliance with the APACHE 2.0 license.
+  This application is licensed under the GPL 3.0 license. Use of this application must be in compliance with the GPL 3.0 license.
   
   ## <a name="questioning"></a> Questions
 
